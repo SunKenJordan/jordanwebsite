@@ -8,15 +8,18 @@ a{
 iframe{
 	float: center;
 }
+body{
+	background-color: white;
+}
 .navbar ul{
 	list-style-type: none;
-	background-color: grey;
+	background-color: #D6EFD8;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
 }
 .navbar a{
-	color: white;
+	color: black;
 	text-decoration: none;
 	padding: 15px;
 	display: block;
@@ -45,8 +48,10 @@ iframe{
     clear:both;
 }
 .aboutme{
-	background-color: lightgrey;
-	border: 15px solid green;
+	background-color: #D6EFD8;
+	border: 15px;
+	border-style: solid;
+	border-color: #508D4E;
 	overflow: hidden;
 }
 .projects{
@@ -80,8 +85,10 @@ iframe{
 .pbox {
 	display: block-inline;
 	float: left;
-  	background-color: lightgrey;
-	border: 5px solid green;
+  	background-color: #D6EFD8;
+	border: 5px;
+	border-style: solid;
+	border-color: #508D4E;
 
 
 	margin-top: 10px;
