@@ -14,6 +14,8 @@ iframe{
 }
 body {
 	background-color: #0F0F0F;
+	max-width: 1600px;
+	margin: 0 auto;
 }
 .navbar {
 	border-style: double;
@@ -63,42 +65,28 @@ body {
 	text-align: center;
 	clear: both;
 }
-.projects img{
-	padding: 15px;
-	display: inline;
-	float: left;
+.pbox img {
+	padding-right: 20px;
+	width: 250px;
+	height: auto;
 }
-.projects figcaption{
-	position: relative;
-	float: left;
-}
-.projects h3{
-	display: block-inline;
-	float: left;
-}
-.projects p{
-	display: block-inline;
-	float: left;
-	width: 400px;
-	height: 140px;
-}
-.projects a{
-	text-decoration: none;
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .pbox {
-	display: block-inline;
-	float: left;
+	display: flex;
+	align-items: flex-start;
+	width: 650px;
+	min-height: 220px;
 	background-color: floralwhite;
-	border: 3px;
-	border-style: double;
-	border-color: #0F0F0F;
-	border-radius: 30px; /* Applies to all 4 corners */
-
-
-
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 15px;
-	margin-left: 8px;
+	border: 3px double #0F0F0F;
+	border-radius: 30px;
+	padding: 20px;
+	box-sizing: border-box;
 }
